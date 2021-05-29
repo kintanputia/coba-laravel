@@ -19,7 +19,7 @@
         @enderror
         </div>
         <div class="mb-3">
-        <label for="nim" class="form-label">NIM</label>
+        <label for="nim" class="form-label">Nomor Induk Mahasiswa</label>
         <input type="text" class="form-control @error ('nim') is-invalid @enderror" id="nim" placeholder="Masukkan NIM mahasiswa" name="nim">
         @error('nim')
         <div id="validationServerUsernameFeedback" class="invalid-feedback">
